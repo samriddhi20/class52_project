@@ -1,0 +1,33 @@
+
+.header{
+    border: 2px solid #000000;
+    background-color:#caffb7;
+    display:flex;
+    justify-content:center;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    flex-shrink: 6;
+    font-family:monospace;
+    align-content:space-around;
+}
+ 
+.grid img{
+    background-color:#9c9797;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+body{
+    background-color:#fce0c1; 
+}
+.origami{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color:#dbfff3;
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+.item:hover img{
+    opacity:0.5;
+}
